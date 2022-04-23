@@ -9,8 +9,8 @@ Git 저장소를 만들 때 주로 두 가지중 한가지 방법으로 저장�
 
  - 버전관리를 하지 않는 기존 프로젝트를 Git으로 관리 하고 싶은 경우 프로젝트의 명령어를 통해 폴더로 이동한다.
 
-    
-    git init
+
+      git init
 
 
  - 위 명령은 **.git**이라는 하위 디렉토리를 생성한다. 
@@ -24,8 +24,8 @@ Git 저장소를 만들 때 주로 두 가지중 한가지 방법으로 저장�
  - **git clone** 명령어를 실행하면 프로젝트의 history를 모두 받아온다.
 
 
-    git clone <url>
-    git clone https://github.com/libgit2/libgit
+      git clone <url>
+      git clone https://github.com/libgit2/libgit
 
 
  - 위의 명령은 "libgit2” 라는 디렉토리를 만들고 그 안에 .git 디렉토리를 만든다.
