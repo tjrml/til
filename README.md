@@ -5,6 +5,7 @@
 - [변수](standardOfJava/variable.md)
 
 ## Git
-- [Git 설정 및 명령어](git/initialSetting.md) 
+- [Git 최초설정](git/initialSetting.md) 
+- [Git 저장소 만들기](git/createRepository.md) 
 
 

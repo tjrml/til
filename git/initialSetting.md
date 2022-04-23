@@ -5,12 +5,24 @@
 Git을 설치하고 나서 가장 먼저 해야 하는 것은 **사용자이름과 이메일 주소를 설정**하는 것이다.  
 Git은 커밋할 때마다 이 정보를 사용한다. 한 번 커밋한 후에는 정보를 변경할 수 없다.  
 
-    git config --global user.email "email"  
     git config --global user.name "userName"  
+    git config --global user.email "email"  
 
-<div style="text-align:center;font-size:13px">사용자의 이름과 이메일 주소를 입력한다.</div>
+사용자의 이름과 이메일 주소를 입력한다.  
+git config --list 명령어를 통해 적용 됐는지 확인한다.
 
-    git config --list
+    user.name= userName
+    user.email= email
+    추가적인 정보
+
+사용자 이름과 이메일 주소가 적용 되었다면 기본적인 설정은 완료되었다.
+
+    git config --unset --global user.name
+    git config --unset --global user.emaii
+
+수정이 필요하다면 위 명령어를 입력해서 수정하면 된다.
+
+
 
 git push origin main : 파일을 push 한다.  
 git checkout 'commitId' : 원하는 시점으로 파일을 되돌린다.  
