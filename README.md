@@ -5,6 +5,6 @@
 - [변수](standardOfJava/variable.md)
 
 ## Git
-- [Git 설정 및 명령어](git/README.md) 
+- [Git 설정 및 명령어](git/initialSetting.md) 
 
 
